@@ -38,6 +38,7 @@ namespace Bigschool.Models
             base.OnModelCreating(modelBuilder);
         }
 
+
             public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
