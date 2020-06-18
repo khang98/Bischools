@@ -92,6 +92,7 @@ namespace Bigschool.Controllers
         }
 
         [Authorize]
+
         public ActionResult Edit(int id)
         {
             var userId = User.Identity.GetUserId();
