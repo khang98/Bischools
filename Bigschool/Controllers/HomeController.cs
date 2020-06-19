@@ -29,6 +29,7 @@ namespace Bigschool.Controllers
             return View(viewModel);
         }
 
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
